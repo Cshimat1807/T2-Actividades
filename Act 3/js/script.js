@@ -1,8 +1,10 @@
 function pedirDatos() {
 let nombre;
-nombre = prompt("¿Cómo te llamas?");
-alert ("Hola " + nombre );
 let edad;
+nombre = prompt("¿Cómo te llamas?");
 edad = prompt("¿Cuanto años tienes?")
-alert ("veo que tienes " +  edad )
+alert ("Hola " + nombre + ", veo que tienes " + edad + "años" );
+
+
+
 }
